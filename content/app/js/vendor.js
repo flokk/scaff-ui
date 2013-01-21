@@ -1,0 +1,1 @@
+//= require CamShaft-component-angular/angular.js

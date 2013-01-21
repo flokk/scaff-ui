@@ -1,0 +1,29 @@
+{
+  "name": "{{project}}",
+  "description": "{{description}}"
+  "version": "0.0.1",
+  "private": true,
+  "author": "Cameron Bytheway <cameron@nujii.com>"
+  "main": "app.js",
+  "scripts": {
+    "start": "node_modules/startup/bin/startup start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/flokk/{{project}}.git"
+  },
+  "engines": { 
+    "node" : "0.8.x",
+    "npm"  : "1.1.x"
+  },
+  "dependencies": {
+    "theme-retro": "https://github.com/flokk/theme-retro.git",
+    "flokk-stack-ui": "https://github.com/flokk/flokk-stack-ui.git",
+    "startup": "~0.0.13"
+  },
+  "devDependencies": {
+    "should": "~1.2.1",
+    "mocha": "~1.8.1",
+    "supertest": "~0.5.1"
+  }
+}
