@@ -3,7 +3,7 @@
   "description": "{{description}}",
   "version": "0.0.1",
   "private": true,
-  "author": "Cameron Bytheway <cameron@nujii.com>"
+  "author": "Cameron Bytheway <cameron@nujii.com>",
   "main": "app.js",
   "scripts": {
     "start": "node_modules/startup/bin/startup start"
@@ -17,8 +17,8 @@
     "npm"  : "1.1.x"
   },
   "dependencies": {
-    "theme-retro": "https://github.com/flokk/theme-retro.git",
-    "flokk-stack-ui": "https://github.com/flokk/flokk-stack-ui.git",
+    "theme-retro": "https://github.com/flokk/theme-retro/archive/master.tar.gz",
+    "flokk-stack-ui": "https://github.com/flokk/flokk-stack-ui/archive/master.tar.gz",
     "startup": "~0.0.13"
   },
   "devDependencies": {
